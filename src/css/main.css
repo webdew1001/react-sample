@@ -1,0 +1,56 @@
+.main_visual {
+  margin: 10px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.main_visual .swiper-slide {
+  height: calc(100vh - 20px);
+}
+.main_visual .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section {
+  margin: 50px 10px;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.section-01 .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section-01 .list .item {
+  width: calc(25% - 7.5px);
+  height: 480px;
+  border-radius: 24px;
+  text-align: left;
+  background-color: #eee;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-01 .list .item strong {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+}
+.section-01 .list .item p {
+  font-size: 20px;
+}
+.section-01 .list .item a {
+  font-size: 18px;
+}
+.section-01 .list .item:nth-child(even) {
+  background-color: #444;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
